@@ -27,7 +27,7 @@ public class ExtentReport implements ITestListener {
         String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         reportName="Test-Report_"+timestamp+"-.html";
         sparkReporter=new ExtentSparkReporter(System.getProperty("user.dir")+"/reports/"+ reportName);
-        sparkReporter.config().setDocumentTitle("Saucedemo Report");
+        sparkReporter.config().setDocumentTitle("PetStore Report");
         sparkReporter.config().setReportName("PetStore Api Testing");
         sparkReporter.config().setTheme(Theme.DARK);
         

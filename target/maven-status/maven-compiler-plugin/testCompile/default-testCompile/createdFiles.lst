@@ -1,2 +1,9 @@
+api\test\UserTests.class
 api\endpoints\UserEndpoints.class
+api\test\DataDrivenTests.class
+api\utilities\DataProviders.class
+api\utilities\ExcelUtility.class
+api\payloads\User.class
+api\utilities\ExcelUtility$1.class
 api\endpoints\Routes.class
+api\utilities\ExtentReport.class

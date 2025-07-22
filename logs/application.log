@@ -45,3 +45,10 @@
 2025-07-22 18:25:05 INFO  api.test.UserTests - Updated User
 2025-07-22 18:25:05 INFO  api.test.UserTests - Deleting User
 2025-07-22 18:25:05 INFO  api.test.UserTests - Deleted User
+2025-07-22 20:13:35 INFO  api.test.UserTests - Creating User
+2025-07-22 20:13:39 INFO  api.test.UserTests - User is created
+2025-07-22 20:13:39 INFO  api.test.UserTests - Reading User
+2025-07-22 20:13:40 INFO  api.test.UserTests - Updating User
+2025-07-22 20:13:41 INFO  api.test.UserTests - Updated User
+2025-07-22 20:13:41 INFO  api.test.UserTests - Deleting User
+2025-07-22 20:13:42 INFO  api.test.UserTests - Deleted User

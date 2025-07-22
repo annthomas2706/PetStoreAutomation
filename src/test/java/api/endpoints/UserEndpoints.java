@@ -29,7 +29,8 @@ public class UserEndpoints {
 		Response response=given()
 				.pathParam("username", userName)
 		.when()
-			.post(Routes.get_url);
+			.get(Routes.get_url);
+		System.out.println(Routes.get_url);
 		return response;
 			
 		

@@ -30,7 +30,6 @@ public class UserEndpoints {
 				.pathParam("username", userName)
 		.when()
 			.get(Routes.get_url);
-		System.out.println(Routes.get_url);
 		return response;
 			
 		
@@ -55,7 +54,7 @@ public class UserEndpoints {
 	public static Response deleteUser(String userName)
 	{
 		Response response=given()
-				.pathParam("username", userName)
+				.pathParam("username",userName)
 		.when()
 			.delete(Routes.delete_url);
 		return response;
